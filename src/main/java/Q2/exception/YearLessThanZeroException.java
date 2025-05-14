@@ -1,4 +1,4 @@
-package Q2.exceptions;
+package Q2.exception;
 
 public class YearLessThanZeroException extends RuntimeException {
     public YearLessThanZeroException() {

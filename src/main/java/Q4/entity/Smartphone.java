@@ -1,4 +1,4 @@
-package Q4.Entity;
+package Q4.entity;
 
 public class Smartphone extends Produto{
     public Smartphone(String nome, double preco){

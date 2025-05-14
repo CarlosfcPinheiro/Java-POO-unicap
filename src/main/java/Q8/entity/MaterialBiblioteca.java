@@ -1,10 +1,14 @@
 package Q8.entity;
 
+import Q8.exception.MaterialOutOfDevolution;
+
 public abstract class MaterialBiblioteca {
     private String titulo;
     private int prazoDevolucao;
 
     public MaterialBiblioteca(String titulo, int prazoDevolucao) {
+        if (prazoDevolucao > 30) throw new MaterialOutOfDevolution();
+
         this.titulo = titulo;
         this.prazoDevolucao = prazoDevolucao;
     }

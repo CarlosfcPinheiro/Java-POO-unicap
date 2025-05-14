@@ -4,7 +4,7 @@ import Q3.entity.Desenvolvedor;
 import Q3.entity.Empresa;
 import Q3.entity.Estagiario;
 import Q3.entity.Funcionario;
-import Q3.exceptions.baseSalaryException;
+import Q3.exception.baseSalaryException;
 
 import java.util.ArrayList;
 import java.util.List;

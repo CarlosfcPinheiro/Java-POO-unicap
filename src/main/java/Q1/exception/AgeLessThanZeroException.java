@@ -1,4 +1,4 @@
-package Q1.exceptions;
+package Q1.exception;
 
 public class AgeLessThanZeroException extends RuntimeException {
     public AgeLessThanZeroException() {

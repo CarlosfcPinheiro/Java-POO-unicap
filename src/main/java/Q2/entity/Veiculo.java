@@ -1,6 +1,6 @@
 package Q2.entity;
 
-import Q2.exceptions.YearLessThanZeroException;
+import Q2.exception.YearLessThanZeroException;
 
 public abstract class Veiculo {
     private String marca;

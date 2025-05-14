@@ -3,7 +3,7 @@ package Q1;
 import Q1.entity.Cachorro;
 import Q1.entity.Gato;
 import Q1.entity.Zoologico;
-import Q1.exceptions.AgeLessThanZeroException;
+import Q1.exception.AgeLessThanZeroException;
 
 public class Main {
     public static void main(String[] args){

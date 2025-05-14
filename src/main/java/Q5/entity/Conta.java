@@ -1,10 +1,14 @@
 package Q5.entity;
 
+import Q5.exception.TitularNullOrBlankException;
+
 public abstract class Conta {
     private String titular;
     private double saldo;
 
     public Conta(String titular, double saldo) {
+        if (titular == null || titular.equals("")) throw new TitularNullOrBlankException();
+
         this.titular = titular;
         this.saldo = saldo;
     }

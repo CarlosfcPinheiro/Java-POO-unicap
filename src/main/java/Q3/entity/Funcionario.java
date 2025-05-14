@@ -1,6 +1,6 @@
 package Q3.entity;
 
-import Q3.exceptions.baseSalaryException;
+import Q3.exception.baseSalaryException;
 
 public abstract class Funcionario {
     private String nome;

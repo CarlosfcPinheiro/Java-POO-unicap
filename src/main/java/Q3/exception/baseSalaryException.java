@@ -1,4 +1,4 @@
-package Q3.exceptions;
+package Q3.exception;
 
 public class baseSalaryException extends RuntimeException {
     public baseSalaryException() {

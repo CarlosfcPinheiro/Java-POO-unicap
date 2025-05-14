@@ -1,6 +1,6 @@
 package Q1.entity;
 
-import Q1.exceptions.AgeLessThanZeroException;
+import Q1.exception.AgeLessThanZeroException;
 
 public abstract class Animal {
     private String name;

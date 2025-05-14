@@ -2,7 +2,7 @@ package Q2;
 
 import Q2.entity.Carro;
 import Q2.entity.Motocicleta;
-import Q2.exceptions.YearLessThanZeroException;
+import Q2.exception.YearLessThanZeroException;
 
 public class Main {
     public static void main(String[] args) {
